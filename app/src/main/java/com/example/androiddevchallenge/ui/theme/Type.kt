@@ -17,11 +17,17 @@ package com.example.androiddevchallenge.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.androiddevchallenge.R
 
 // Set of Material typography styles to start with
+val ClockFont = FontFamily(
+    Font(R.font.clock_mono, FontWeight.W900),
+)
+
 val typography = Typography(
     body1 = TextStyle(
         fontFamily = FontFamily.Default,
@@ -40,4 +46,5 @@ val typography = Typography(
         fontSize = 12.sp
     )
     */
+
 )
